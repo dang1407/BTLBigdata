@@ -1,0 +1,1 @@
+spark-submit --master spark://spark:7077 ./analysjob.py --jars ./commons-httpclient-3.1.jar ./elasticsearch-spark-30_2.12-7.12.0.jar  --driver-class-path ./commons-httpclient-3.1.jar  ./elasticsearch-spark-30_2.12-7.12.0.jar 
